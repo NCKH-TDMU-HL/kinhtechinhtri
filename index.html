@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trắc Nghiệm Kinh tế chính trị</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 900px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .score-display {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 15px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+        }
+
+        .score-item {
+            text-align: center;
+        }
+
+        .score-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+
+        .score-value {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+
+        .progress-container {
+            background: rgba(255, 255, 255, 0.3);
+            height: 8px;
+            border-radius: 10px;
+            margin-top: 20px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            background: white;
+            height: 100%;
+            border-radius: 10px;
+            transition: width 0.3s ease;
+        }
+
+        .upload-section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .upload-area {
+            border: 3px dashed #667eea;
+            border-radius: 15px;
+            padding: 40px;
+            background: #f8f9fa;
+            transition: all 0.3s ease;
+        }
+
+        .upload-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+
+        .upload-text {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .upload-hint {
+            font-size: 0.9em;
+            color: #999;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .question-container {
+            margin-bottom: 30px;
+        }
+
+        .question {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+
+        .options {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .option {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            padding: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            min-height: 80px;
+        }
+
+        .option:hover {
+            background: #e9ecef;
+            transform: scale(1.02);
+        }
+
+        .option.selected {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+
+        .option.correct {
+            background: #10b981;
+            color: white;
+            border-color: #10b981;
+        }
+
+        .option.incorrect {
+            background: #ef4444;
+            color: white;
+            border-color: #ef4444;
+        }
+
+        .option-label {
+            background: white;
+            color: #667eea;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.1em;
+            flex-shrink: 0;
+        }
+
+        .option.selected .option-label {
+            background: white;
+            color: #667eea;
+        }
+
+        .option.correct .option-label,
+        .option.incorrect .option-label {
+            background: white;
+        }
+
+        .option.correct .option-label {
+            color: #10b981;
+        }
+
+        .option.incorrect .option-label {
+            color: #ef4444;
+        }
+
+        .option-text {
+            flex: 1;
+            font-size: 1.05em;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        button {
+            flex: 1;
+            padding: 15px 30px;
+            font-size: 1.1em;
+            font-weight: 600;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-submit {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-submit:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-next {
+            background: #10b981;
+            color: white;
+        }
+
+        .btn-next:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(16, 185, 129, 0.4);
+        }
+
+        .result-container {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .result-score {
+            font-size: 4em;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 20px 0;
+        }
+
+        .result-details {
+            font-size: 1.3em;
+            color: #666;
+            margin: 15px 0;
+        }
+
+        .result-message {
+            font-size: 1.5em;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .btn-restart {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 50px;
+            font-size: 1.2em;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .question-number {
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .options {
+                grid-template-columns: 1fr;
+            }
+            
+            .option {
+                min-height: 60px;
+            }
+
+            .score-display {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Cố gắng đừng để rớt môn</h1>
+            <div class="score-display" id="scoreDisplay">
+                <div class="score-item">
+                    <div class="score-label">Điểm Hiện Tại</div>
+                    <div class="score-value" id="currentScore">0.0</div>
+                </div>
+                <div class="score-item">
+                    <div class="score-label">Số Câu Đúng</div>
+                    <div class="score-value" id="correctCount">0/50</div>
+                </div>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+        </div>
+
+        <div class="upload-section" id="uploadSection">
+            <div class="upload-area" id="uploadArea">
+                <div class="upload-icon">⏳</div>
+                <div class="upload-text">Đang tải câu hỏi...</div>
+                <div class="upload-hint">Vui lòng đợi trong giây lát</div>
+            </div>
+        </div>
+
+        <div class="content hidden" id="quizContent">
+            <div class="question-number" id="questionNumber"></div>
+            <div class="question-container">
+                <div class="question" id="question"></div>
+                <div class="options" id="options"></div>
+            </div>
+            <div class="button-container">
+                <button class="btn-submit" id="submitBtn" onclick="checkAnswer()">Kiểm Tra</button>
+                <button class="btn-next hidden" id="nextBtn" onclick="nextQuestion()">Câu Tiếp Theo →</button>
+            </div>
+        </div>
+
+        <div class="result-container hidden" id="resultContainer">
+            <h2>🎉 Hoàn Thành!</h2>
+            <div class="result-score" id="resultScore"></div>
+            <div class="result-details" id="resultDetails"></div>
+            <div class="result-message" id="resultMessage"></div>
+            <button class="btn-restart" onclick="restartQuiz()">Làm Lại</button>
+        </div>
+    </div>
+
+    <script>
+        let quizData = [];
+        let currentQuestion = 0;
+        let score = 0;
+        let selectedAnswer = null;
+        const POINT_PER_QUESTION = 0.2;
+        const MAX_SCORE = 10;
+
+        // Tự động tải file question.json khi trang load
+        window.addEventListener('DOMContentLoaded', () => {
+            loadQuestionsFromFile();
+        });
+
+        async function loadQuestionsFromFile() {
+            try {
+                const response = await fetch('question.json');
+                if (!response.ok) {
+                    throw new Error('Không tìm thấy file question.json');
+                }
+                const content = await response.text();
+                parseJSON(content);
+            } catch (error) {
+                document.getElementById('uploadArea').innerHTML = `
+                    <div class="upload-icon">❌</div>
+                    <div class="upload-text" style="color: #ef4444;">Lỗi tải file câu hỏi</div>
+                    <div class="upload-hint">${error.message}</div>
+                `;
+            }
+        }
+
+        function parseJSON(content) {
+            try {
+                const allQuestions = JSON.parse(content);
+                if (allQuestions.length > 0) {
+                    quizData = getRandomQuestions(allQuestions, 50);
+                    startQuiz();
+                } else {
+                    alert('File không có câu hỏi nào!');
+                }
+            } catch (e) {
+                alert('Lỗi đọc file JSON: ' + e.message);
+            }
+        }
+
+        function getRandomQuestions(questions, count) {
+            const shuffled = [...questions].sort(() => Math.random() - 0.5);
+            return shuffled.slice(0, Math.min(count, questions.length));
+        }
+
+        function startQuiz() {
+            document.getElementById('uploadSection').classList.add('hidden');
+            document.getElementById('quizContent').classList.remove('hidden');
+            updateScoreDisplay();
+            loadQuestion();
+        }
+
+        function updateScoreDisplay() {
+            const currentPoints = (score * POINT_PER_QUESTION).toFixed(1);
+            document.getElementById('currentScore').textContent = currentPoints;
+            document.getElementById('correctCount').textContent = `${score}/${quizData.length}`;
+        }
+
+        function loadQuestion() {
+            const q = quizData[currentQuestion];
+            document.getElementById('questionNumber').textContent = `Câu ${currentQuestion + 1}/${quizData.length}`;
+            document.getElementById('question').textContent = q.question;
+            
+            const optionsContainer = document.getElementById('options');
+            optionsContainer.innerHTML = '';
+            
+            q.options.forEach((option, index) => {
+                const optionDiv = document.createElement('div');
+                optionDiv.className = 'option';
+                optionDiv.innerHTML = `
+                    <div class="option-label">${String.fromCharCode(65 + index)}</div>
+                    <div class="option-text">${option}</div>
+                `;
+                optionDiv.onclick = () => selectOption(index);
+                optionsContainer.appendChild(optionDiv);
+            });
+
+            updateProgress();
+            selectedAnswer = null;
+            document.getElementById('submitBtn').disabled = true;
+        }
+
+        function selectOption(index) {
+            if (document.getElementById('submitBtn').classList.contains('hidden')) return;
+            
+            selectedAnswer = index;
+            const options = document.querySelectorAll('.option');
+            options.forEach((opt, i) => {
+                opt.classList.remove('selected');
+                if (i === index) {
+                    opt.classList.add('selected');
+                }
+            });
+            document.getElementById('submitBtn').disabled = false;
+        }
+
+        function checkAnswer() {
+            if (selectedAnswer === null) return;
+
+            const q = quizData[currentQuestion];
+            const options = document.querySelectorAll('.option');
+            
+            options.forEach((opt, i) => {
+                opt.onclick = null;
+                if (i === q.correct) {
+                    opt.classList.add('correct');
+                } else if (i === selectedAnswer) {
+                    opt.classList.add('incorrect');
+                }
+            });
+
+            if (selectedAnswer === q.correct) {
+                score++;
+                updateScoreDisplay();
+            }
+
+            document.getElementById('submitBtn').classList.add('hidden');
+            document.getElementById('nextBtn').classList.remove('hidden');
+        }
+
+        function nextQuestion() {
+            currentQuestion++;
+            
+            if (currentQuestion < quizData.length) {
+                document.getElementById('submitBtn').classList.remove('hidden');
+                document.getElementById('nextBtn').classList.add('hidden');
+                loadQuestion();
+            } else {
+                showResult();
+            }
+        }
+
+        function updateProgress() {
+            const progress = ((currentQuestion + 1) / quizData.length) * 100;
+            document.getElementById('progressBar').style.width = progress + '%';
+        }
+
+        function showResult() {
+            document.getElementById('quizContent').classList.add('hidden');
+            document.getElementById('resultContainer').classList.remove('hidden');
+            
+            const finalScore = (score * POINT_PER_QUESTION).toFixed(1);
+            const percentage = Math.round((score / quizData.length) * 100);
+            
+            document.getElementById('resultScore').textContent = `${finalScore}/${MAX_SCORE} điểm`;
+            document.getElementById('resultDetails').textContent = `Số câu đúng: ${score}/${quizData.length} câu (${percentage}%)`;
+            
+            let message = '';
+            if (percentage === 100) {
+                message = '🌟 Xuất sắc! Bạn đã trả lời đúng tất cả!';
+            } else if (percentage >= 80) {
+                message = '🎉 Tốt lắm! Bạn đã làm rất tốt!';
+            } else if (percentage >= 60) {
+                message = '👍 Khá đấy! Còn cần cố gắng thêm!';
+            } else if (percentage >= 40) {
+                message = '💪 Cố gắng lên! Bạn cần ôn tập thêm!';
+            } else {
+                message = '📚 Đừng nản lòng! Hãy học thêm và thử lại nhé!';
+            }
+            
+            document.getElementById('resultMessage').textContent = message;
+        }
+
+        function restartQuiz() {
+            currentQuestion = 0;
+            score = 0;
+            selectedAnswer = null;
+            document.getElementById('quizContent').classList.remove('hidden');
+            document.getElementById('resultContainer').classList.add('hidden');
+            document.getElementById('submitBtn').classList.remove('hidden');
+            document.getElementById('nextBtn').classList.add('hidden');
+            updateScoreDisplay();
+            loadQuestion();
+        }
+    </script>
+</body>
+</html>
