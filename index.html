@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trắc nghiệm chăm sóc sức khỏe</title>
+    <title>Trắc Nghiệm Kinh tế chính trị</title>
     <style>
         * {
             margin: 0;
@@ -205,70 +205,6 @@
             font-size: 1.05em;
         }
 
-        .answer-feedback {
-            margin-top: 20px;
-            padding: 20px;
-            border-radius: 12px;
-            display: none;
-            animation: slideIn 0.3s ease;
-        }
-
-        .answer-feedback.show {
-            display: block;
-        }
-
-        .answer-feedback.wrong {
-            background: #fee2e2;
-            border: 2px solid #ef4444;
-        }
-
-        .answer-feedback.right {
-            background: #d1fae5;
-            border: 2px solid #10b981;
-        }
-
-        .feedback-icon {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-
-        .feedback-title {
-            font-size: 1.3em;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        .feedback-title.wrong {
-            color: #ef4444;
-        }
-
-        .feedback-title.right {
-            color: #10b981;
-        }
-
-        .feedback-text {
-            font-size: 1.1em;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        .correct-answer-label {
-            font-weight: bold;
-            color: #10b981;
-            margin-bottom: 5px;
-        }
-
-        @keyframes slideIn {
-            from {
-                opacity: 0;
-                transform: translateY(-10px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
         .button-container {
             display: flex;
             gap: 15px;
@@ -403,7 +339,6 @@
             <div class="question-container">
                 <div class="question" id="question"></div>
                 <div class="options" id="options"></div>
-                <div class="answer-feedback" id="answerFeedback"></div>
             </div>
             <div class="button-container">
                 <button class="btn-submit" id="submitBtn" onclick="checkAnswer()">Kiểm Tra</button>
@@ -428,6 +363,7 @@
         const POINT_PER_QUESTION = 0.2;
         const MAX_SCORE = 10;
 
+        // Tự động tải file question.json khi trang load
         window.addEventListener('DOMContentLoaded', () => {
             loadQuestionsFromFile();
         });
@@ -500,11 +436,6 @@
                 optionsContainer.appendChild(optionDiv);
             });
 
-            // Ẩn phần feedback
-            const feedback = document.getElementById('answerFeedback');
-            feedback.classList.remove('show', 'wrong', 'right');
-            feedback.innerHTML = '';
-
             updateProgress();
             selectedAnswer = null;
             document.getElementById('submitBtn').disabled = true;
@@ -529,7 +460,6 @@
 
             const q = quizData[currentQuestion];
             const options = document.querySelectorAll('.option');
-            const feedback = document.getElementById('answerFeedback');
             
             options.forEach((opt, i) => {
                 opt.onclick = null;
@@ -540,33 +470,9 @@
                 }
             });
 
-            const isCorrect = selectedAnswer === q.correct;
-            
-            if (isCorrect) {
+            if (selectedAnswer === q.correct) {
                 score++;
                 updateScoreDisplay();
-                
-                // Hiển thị feedback cho câu trả lời đúng
-                feedback.className = 'answer-feedback show right';
-                feedback.innerHTML = `
-                    <div class="feedback-icon">✅</div>
-                    <div class="feedback-title right">Chính xác!</div>
-                    <div class="feedback-text">Bạn đã chọn đúng đáp án.</div>
-                `;
-            } else {
-                // Hiển thị feedback cho câu trả lời sai với đáp án đúng
-                const correctAnswerText = q.options[q.correct];
-                const correctAnswerLabel = String.fromCharCode(65 + q.correct);
-                
-                feedback.className = 'answer-feedback show wrong';
-                feedback.innerHTML = `
-                    <div class="feedback-icon">❌</div>
-                    <div class="feedback-title wrong">Chưa chính xác!</div>
-                    <div class="feedback-text">
-                        <div class="correct-answer-label">Đáp án đúng là:</div>
-                        <strong>${correctAnswerLabel}. ${correctAnswerText}</strong>
-                    </div>
-                `;
             }
 
             document.getElementById('submitBtn').classList.add('hidden');
@@ -620,11 +526,11 @@
             currentQuestion = 0;
             score = 0;
             selectedAnswer = null;
-            quizData = getRandomQuestions(quizData, 50);
             document.getElementById('quizContent').classList.remove('hidden');
             document.getElementById('resultContainer').classList.add('hidden');
             document.getElementById('submitBtn').classList.remove('hidden');
             document.getElementById('nextBtn').classList.add('hidden');
+            document.getElementById('progressBar').classList.add('hiden');
             updateScoreDisplay();
             loadQuestion();
         }
