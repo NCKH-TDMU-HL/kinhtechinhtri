@@ -2,501 +2,501 @@
   {
     "question": "Câu 1: Chăm sóc điều dưỡng cho người bệnh tắc ruột cơ học trước mổ là:",
     "options": ["Cho uống nước đường", "Hút dịch dạ dày", "Thụt tháo phân", "Động viên"],
-    "correct": [1]
+    "correct": 1
   },
   {
     "question": "Câu 2: Dịch mật chảy qua dẫn lưu Kehr ở người bệnh mổ ống mật chủ lấy sỏi bình thường có màu:",
     "options": ["Đỏ sẫm", "Hồng nhạt", "Vàng chanh", "Nâu nhạt"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 3: Dẫn lưu Kehr được đặt sau mổ lấy sỏi ống mật chủ bị nghẹt không ra dịch, người điều dưỡng sẽ thực hiện y lệnh:",
     "options": ["Rút ống Kehr", "Theo dõi tiếp", "Buộc ống dẫn lưu Kehr lại", "Bơm rửa ống dẫn lưu Kehr"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 4: Không làm hậu môn nhân tạo cho người bệnh trong trường hợp:",
     "options": ["Viêm đại tràng hoại tử", "U đại tràng", "Vết thương đại tràng", "Viêm đại tràng co thắt"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 5: Ngày đầu sau mổ u xơ tuyến tiền liệt, biến chứng nguy hiểm nhất là:",
     "options": ["Nhiễm trùng", "Loét", "Chảy máu", "Suy nhược cơ thể"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 6: Nguyên nhân thường gây tắc sonde niệu đạo sau mổ u xơ tuyến tiền liệt là:",
     "options": ["Cục máu đông", "Cặn sỏi", "Cặn mủ", "Uống ít nước"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 7: Số lượng nước tiểu trung bình ở người lớn để kích thích bàng quang có phản xạ để tiểu là:",
     "options": ["100 - 200 ml", "250 - 300 ml", "350 - 500 ml", "550 - 700 ml"],
-    "correct": [1]
+    "correct": 1
   },
   {
     "question": "Câu 8: Điều dưỡng cần hướng dẫn về chế độ ăn, uống khi bệnh nhân sau mổ tắc ruột khi ra viện là:",
     "options": ["Ăn lỏng", "Ăn làm nhiều bữa", "Tránh ăn nhiều rau", "Tránh uống nhiều nước"],
-    "correct": [1]
+    "correct": 1
   },
   {
     "question": "Câu 9: Chăm sóc người bệnh sau mổ tắc ruột cơ học còn mê cần:",
     "options": ["Thay băng vết mổ thường xuyên", "Cho người bệnh nằm ngửa, mặt nghiêng sang bên", "Hút dịch dạ dày liên tục", "Cho uống nước"],
-    "correct": [1]
+    "correct": 1
   },
   {
-    "question": "Câu 10: Ông hút dạ dày trên người bệnh sau mổ thủng dạ dày - tá tràng được rút khi:",
+    "question": "Câu 10: Ống hút dạ dày trên người bệnh sau mổ thủng dạ dày - tá tràng được rút khi:",
     "options": ["Bụng hết chướng", "Không còn nôn", "Không sốt", "Đã trung tiện"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 11: Khi đã chẩn đoán chắc chắn người bệnh bị thủng dạ dày thì không được làm:",
     "options": ["Dùng kháng sinh đường uống", "Dùng kháng sinh", "Dùng thuốc giảm đau", "Đặt sonde dạ dày"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 12: Nguyên nhân thường gặp nhất trong thủng dạ dày là:",
     "options": ["Ung thư dạ dày", "Loét miệng nối", "Viêm miệng nối", "Loét dạ dày-tá tràng"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 13: Thời gian dành để tổng vệ sinh cuối tuần của phòng mổ là:",
     "options": ["Nửa ngày", "Một ngày", "Hai ngày", "Ba ngày"],
-    "correct": [1]
+    "correct": 1
   },
   {
     "question": "Câu 14: Không khí buồng mổ được bảo vệ vô khuẩn bằng cách:",
     "options": ["Hạn chế tối thiểu việc mở cửa phòng mổ", "Thông khí từ sàn nhà lên trần nhà", "Không nói chuyện trong lúc mổ", "Không ăn uống"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 15: Để phòng chống nhiễm khuẩn trong phòng mổ cần:",
     "options": ["Hạn chế tối thiểu các đồ dùng", "Trang bị nhiều dụng cụ càng tốt", "Chỉ duy nhất một bàn mổ", "Bình oxy, tủ thuốc, máy đốt điện"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 16: Các biến chứng của nhiễm trùng đường tiết niệu, NGOẠI TRỪ:",
     "options": ["Viêm bể thận", "Viêm tấy quanh thận", "Đa niệu", "Suy thận"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 17: Nhiệm vụ của điều dưỡng vòng trong là:",
     "options": ["Trợ giúp người bệnh lên phòng mổ", "Trải dụng cụ ra trước khi bệnh nhân đến", "Giúp phẫu thuật viên mang găng vô khuẩn", "Đo mạch, huyết áp cho người gây mê"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 18: Dung dịch dùng để rửa da vùng mổ trên người bệnh trước mổ là:",
     "options": ["Xà phòng nước", "Cồn", "Nước muối sinh lý", "Nước máy"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 19: Bệnh nhân sau mổ còn mê để phòng tụt lưỡi vào hầu cần đặt ống:",
     "options": ["Nội khí quản", "Sonde dạ dày", "Ống Mayo", "Ống giúp thở"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 20: Chuẩn bị người bệnh mổ có kế hoạch cần nhịn ăn trước mổ:",
     "options": ["2-3 giờ", "4-5 giờ", "6-8 giờ", "9-10 giờ"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 21: Vô khuẩn trong ngoại khoa luôn được áp dụng triệt để ở khu:",
     "options": ["Tiền phẫu", "Phẫu thuật", "Phòng hồi tỉnh", "Hậu phẫu"],
-    "correct": [1]
+    "correct": 1
   },
   {
     "question": "Câu 22: Phẫu thuật cấp cứu là phẫu thuật:",
     "options": ["Cần phải mổ trong vòng vài giờ", "Cần có thời gian để theo dõi và hồi sức", "Bệnh nhân được chọn giờ để phẫu thuật", "Cần có sự chuẩn bị chu đáo về mọi mặt"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 23: Thời gian để thủng dạ dày tá tràng tiến triển thành viêm phúc mạc toàn thể:",
     "options": ["6 đến 8 giờ", "8 đến 10 giờ", "12 đến 24 giờ", "24 đến 48 giờ"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 24: Bệnh nhân mổ viêm ruột thừa, nếu vết thương lành tốt sẽ được cắt chỉ vết mổ sau bao nhiêu ngày?",
     "options": ["3 ngày", "5 ngày", "7 ngày", "10 ngày"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 25: Dung dịch thường dùng để sát khuẩn cho vết mổ may kín da là:",
     "options": ["Povidine", "Nước muối", "Ôxy già", "Nước cất"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 26: Dung dịch dùng để rửa vết thương hở là:",
     "options": ["Nước muối, oxy già", "Povidine, nước muối", "Ôxy già, povidine", "Thuốc đỏ, nước muối"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 27: Số bữa ăn của người bệnh sau mổ cắt dạ dày trong ngày thường được chia nhỏ:",
     "options": ["2 bữa", "3 bữa", "4 bữa", "6 bữa"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 28: Điều dưỡng cần chuẩn bị cho người bệnh trước khi đóng hậu môn nhân tạo tạm thời là:",
     "options": ["Cho kháng sinh", "Truyền máu", "Thụt tháo", "Rửa vết mổ"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 29: Trước khi rút ống Kehr cho người bệnh sau mổ ống mật chủ lấy sỏi, điều dưỡng cần kẹp thử ống Kehr lại để theo dõi trong thời gian:",
     "options": ["3 ngày", "24 giờ", "3 giờ", "5 ngày"],
-    "correct": [1]
+    "correct": 1
   },
   {
     "question": "Câu 30: Nguyên tắc cơ bản khi sơ cứu vết thương ngực hở là:",
     "options": ["Dẫn lưu kín xoang màng phổi", "Bịt kín vết thương", "Khâu cơ hoành", "Băng vết thương bình thường"],
-    "correct": [1]
+    "correct": 1
   },
   {
     "question": "Câu 31: Điểm đau trong viêm ruột thừa cấp:",
     "options": ["Mac Burney", "Clado", "Lanz", "Murphy"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 32: Sau khi phẫu thuật lấy sỏi ống mật chủ cho người bệnh, phẫu thuật viên thường đặt ống dẫn lưu ống mật chủ bằng:",
     "options": ["Ống Nelaton", "Ống Pezzer", "Ống Folley", "Ống Kehr"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 33: Bình thường ở người trưởng thành lượng nước tiểu bài xuất trong một giờ là khoảng ........... ml/kg/giờ.",
     "options": ["1", "0,5", "0,2", "2"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 34: Ở người trưởng thành gọi là thiểu niệu khi lượng nước tiểu dưới ...........ml/kg/giờ.",
     "options": ["1", "0,5", "0,2", "2"],
-    "correct": [1]
+    "correct": 1
   },
   {
     "question": "Câu 35: Ở người trưởng thành gọi là vô niệu khi lượng nước tiểu dưới ...........ml/kg/giờ.",
     "options": ["1", "0,5", "0,2", "2"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 36: Ống dẫn lưu phòng ngừa sau mổ viêm phúc mạc ruột thừa ở hố chậu phải thường được rút sau:",
     "options": ["24 giờ", "48 giờ", "72 giờ", "12 giờ"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 37: Ống hút dịch dạ dày sau mổ tắc ruột cần:",
     "options": ["Hút liên tục", "Hút 1 lần/ngày", "Hút ngắt quãng", "Không cần hút"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 38: Người bệnh vào viện vì đau bụng hạ sườn phải, sốt cao 39 độ C, vàng mắt, tình trạng sốc, có đề kháng thành bụng vùng hạ sườn phải. Chẩn đoán được nghĩ đến trước tiên là.........",
     "options": ["Sốc nhiễm trùng đường mật", "Viêm tụy cấp thể phù nề", "Viêm phúc mạc do thủng dạ dày", "Áp xe gan"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 39: Trong các xét nghiệm sau, xét nghiệm nào có giá trị nhất để chẩn đoán tắc mật do sỏi mật:",
     "options": ["SGOT, SGPT", "Công thức máu", "X quang", "Bilirubin"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 40: Người bệnh chấn thương thận đang điều trị bảo tồn không mổ có đặt sonde tiểu lưu điều dưỡng phải theo dõi:",
     "options": ["Số lượng, màu sắc nước tiểu", "Nước xuất nhập", "Tình trạng dinh dưỡng", "Chế độ vận động"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 41: Biến chứng xảy ra trong vòng 24 giờ đầu sau mổ đường tiêu hóa là..................",
     "options": ["Tắc ruột dính", "Chảy máu", "Viêm phổi", "Viêm đường tiết niệu"],
-    "correct": [1]
+    "correct": 1
   },
   {
     "question": "Câu 42: Tác nhân có thể gây nhiễm trùng ngoại khoa:",
     "options": ["Vi trùng từ ngoài cơ thể", "Vi trùng từ trong cơ thể", "Nấm và siêu vi trùng", "Vi trùng theo dị vật vào cơ thể"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 43: Nhiễm trùng ngoại khoa gặp trong bệnh:",
     "options": ["Viêm ruột thừa", "Viêm phổi", "Viêm khớp", "Lao"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 44: Hậu quả của nhiễm trùng ngoại khoa thường gặp:",
     "options": ["Suy thận", "Suy tim", "Choáng nhiễm trùng", "Nhiễm trùng máu"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 45: Biểu hiện lâm sàng của nhiễm trùng ngoại khoa:",
     "options": ["Sốt, bạch cầu tăng", "Đau, nóng", "Sưng, nóng, đỏ, đau", "Hội chứng nhiễm trùng"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 46: Thay đổi cơ bản trong xét nghiệm máu khi có nhiễm trùng ngoại khoa:",
     "options": ["Hồng cầu tăng", "Bạch cầu đơn nhân tăng", "Bạch cầu đa nhân trung tính giảm", "Bạch cầu đa nhân trung tính tăng"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 47: Nhiễm trùng phát triển nhanh trên cơ địa người bệnh:",
     "options": ["Người già", "Người trẻ có bệnh lý mãn tính", "Trẻ em", "Suy giảm sức đề kháng"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 48: Thuốc chủ yếu để điều trị nhiễm trùng ngoại khoa:",
     "options": ["Giảm đau", "Kháng viêm", "Kháng sinh", "Các loại Vitamin"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 49: Biện pháp phòng tránh và giảm khả năng nhiễm trùng ngoại khoa cho nạn nhân:",
     "options": ["Sơ cứu đúng kỹ thuật", "Ủ ấm và đưa nạn nhân đến bệnh viện", "Cầm máu", "Cố định xương gãy"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 50: Xử trí ổ abscess:",
     "options": ["Giảm đau, kháng sinh", "Tránh tì đè lên ổ abscess", "Tháo mủ chủ động, rửa sạch ổ abscess", "Tháo mủ chủ động, rửa sạch, kháng sinh phù hợp"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 51: Thể Viêm ruột thừa thường gặp:",
     "options": ["Viêm ruột thừa mãn tính", "Viêm ruột thừa cấp tính", "Viêm ruột thừa bán cấp", "Viêm ruột thừa hoại tử"],
-    "correct": [1]
+    "correct": 1
   },
   {
     "question": "Câu 52: Viêm ruột thừa có thể gặp ở:",
     "options": ["Người lớn", "Trẻ em", "Phụ nữ", "Mọi lứa tuổi"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 53: Viêm ruột thừa có thể:",
     "options": ["Tự khỏi", "Gây nhiễm trùng máu", "Gây suy thận cấp", "Gây nhiễm trùng đường tiểu"],
-    "correct": [1]
+    "correct": 1
   },
   {
     "question": "Câu 54: Có thể nghĩ đến viêm ruột thừa khi có các triệu chứng:",
     "options": ["Đau bụng hố chậu phải từng cơn, tiểu gắt", "Đau hố chậu phải âm ỉ, tiểu khó", "Sốt, rối loạn tiêu hoá, đau hố chậu phải", "Sốt, đau hố chậu phải, bạch cầu đa nhân trung tính tăng trong máu ngoại vi"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 55: Khi chẩn đoán viêm ruột thừa cần phải:",
     "options": ["Mổ cấp cứu không trì hoãn", "Mổ cấp cứu có trì hoãn", "Mổ theo lịch được duyệt", "Sử dụng kháng sinh 1 ngày trước mổ"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 56: Biến chứng thường gặp của viêm ruột thừa:",
     "options": ["Viêm phúc mạc khu trú", "Viêm phúc mạc toàn thể", "Nhiễm trùng máu", "Đám quánh ruột thừa"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 57: Triệu chứng có giá trị trong chẩn đoán viêm ruột thừa cấp:",
     "options": ["Sốt, rối loạn tiêu hoá", "Đau âm ỉ vùng hố chậu trái", "Bạch cầu đa nhân trung tính tăng", "Đau và cảm ứng phúc mạc tại hố chậu phải"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 58: Bệnh nhân biểu hiện đau bụng cần phải:",
     "options": ["Giảm đau bằng thuốc", "Giảm sốt", "Khống nhiễm trùng", "Không dùng thuốc, chỉ theo dõi"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 59: Viêm ruột thừa cấp trên người có thai có thể gây ra:",
     "options": ["Sảy thai trong 3 tháng giữa của thai kỳ", "Sảy thai trong 3 tháng đầu của thai kỳ", "Sảy thai trong 3 tháng cuối của thai kỳ", "Sảy thai bất kỳ tuổi thai"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 60: Trong cộng đồng, khi nghi ngờ bệnh nhân bị viêm ruột thừa cấp cần phải:",
     "options": ["Giảm đau, kháng sinh", "Đưa đến cơ sở y tế có khả năng phẫu thuật sau khi dùng kháng sinh chống nhiễm trùng", "Đưa bệnh nhân đến cơ sở y tế gần nhất", "Đưa bệnh nhân đến cơ sở y tế có khả năng phẫu thuật"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 61: Có thể gây ra viêm phúc mạc, thường thấy ở bệnh:",
     "options": ["Loét dạ dày tá tràng", "Viêm đại tràng", "Tắc ruột", "Viêm ruột thừa"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 62: Viêm phúc mạc:",
     "options": ["Là một bệnh cấp cứu ngoại khoa", "Là một hội chứng thường gặp trong ngoại khoa", "Là một cấp cứu ngoại khoa thường gặp", "Do viêm ruột thừa gây ra"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 63: Viêm phúc mạc có thể diễn biến:",
     "options": ["Tự khỏi", "Gây nhiễm trùng máu", "Suy thận", "Suy tim"],
-    "correct": [1]
+    "correct": 1
   },
   {
     "question": "Câu 64: Dấu hiệu lâm sàng phải nghĩ đến viêm phúc mạc:",
     "options": ["Đau bụng dữ dội từng cơn", "Sốt cao, đau bụng âm ỉ", "Nôn ói, sốt đau bụng âm ỉ", "Đau bụng âm ỉ tăng dần, bệnh nhân nằm im bụng không tham gia nhịp thở"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 65: Triệu chứng đau trong viêm phúc mạc do:",
     "options": ["Lá thành bị viêm", "Lá tạng bị viêm", "Cả 2 lá", "Các cơ thành bụng bị kích thích"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 66: Dấu hiệu khách quan để chẩn đoán viêm phúc mạc:",
     "options": ["Đau bụng", "Nôn ói", "Sốt", "Co cứng thành bụng"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 67: Tiếng kêu Douglas trong viêm phúc mạc khi:",
     "options": ["Sờ nắn thành bụng", "Ấn vào thành trước trực tràng, âm đạo", "Ấn vào vùng hố chậu phải", "Ấn vùng dưới xương mu"],
-    "correct": [1]
+    "correct": 1
   },
   {
     "question": "Câu 68: Chọn câu đúng:",
     "options": ["Viêm phúc mạc tiên phát phải phẫu thuật", "Viêm phúc mạc thứ phát cấp tính có thể điều trị nội khoa", "Viêm phúc mạc thứ phát cấp tính cần hồi sức trước khi mổ cấp cứu", "Cần phải biết nguyên viêm phúc mạc trước khi điều trị"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 69: Sỏi đường mật là:",
     "options": ["Có sỏi trong ống mật chủ", "Sỏi trong ống gan", "Sỏi trong túi mật", "Sỏi trong hệ thống đường mật"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 70: Sỏi đường mật ngoài gan:",
     "options": ["Sỏi trong gan phải", "Sỏi trong gan trái", "Sỏi trong túi mật", "Sỏi ống mật chủ và túi mật"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 71: Trình tự xuất hiện của tam chứng Charcot:",
     "options": ["Sốt, đau, vàng da", "Đau, vàng da, sốt", "Sốt, vàng da", "Đau, sốt, vàng da"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 72: Lợi ích của việc chuẩn bị người bệnh trước mổ là:",
     "options": ["Tránh tai biến cho người bệnh trong mổ", "Người bệnh an tâm", "Người bệnh chuẩn bị tốt", "Chuẩn bị đầy đủ trang thiết bị"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 73: Mục đích của chuẩn bị người bệnh tốt trước mổ nhằm:",
     "options": ["Người bệnh không lo lắng", "Người nhà người bệnh có thời gian chuẩn bị", "Ngăn ngừa biến chứng sau mổ", "Chủ động trong việc chăm sóc người bệnh"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 74: Người bệnh nếu chuẩn bị trước mổ tốt sẽ:",
     "options": ["Hồi phục tốt sau mổ", "An tâm", "Không xảy ra biến chứng", "Không bị nhiễm trùng"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 75: Để chuẩn bị người bệnh trước mổ tốt, người điều dưỡng phải:",
     "options": ["Nắm rõ hoàn cảnh của người bệnh", "Thu thập đầy đủ thông tin về người bệnh", "Kết hợp với mọi người", "Thu thập thông tin từ người nhà"],
-    "correct": [1]
+    "correct": 1
   },
   {
     "question": "Câu 76: Nếu người bệnh lo lắng trước mổ do thiếu kiến thức về bệnh trước mổ, người điều dưỡng phải:",
     "options": ["Nói rõ những tai biến trong mổ cho người bệnh biết", "Giải thích thật rõ ràng về chuyên môn", "Cung cấp kiến thức cho người bệnh trong phạm vi cho phép", "Nói chuyện với người bệnh nhiều hơn"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 77: Nếu người bệnh hỏi điều dưỡng về thông tin điều trị liên quan đến cuộc phẫu thuật, người điều dưỡng phải:",
     "options": ["Trả lời ngay cho người bệnh nếu mình biết rõ", "Tham khảo ý kiến bác sĩ phẫu thuật trước khi trả lời", "Xem hồ sơ bệnh án kỹ lưỡng trước khi trả lời", "Đó không phải là công việc của điều dưỡng"],
-    "correct": [1]
+    "correct": 1
   },
   {
     "question": "Câu 78: Để công tác chuẩn bị người bệnh tốt, người điều dưỡng phải biết:",
     "options": ["Lượng giá những nguy cơ, biến chứng liên quan đến phẫu thuật", "chuẩn bị tâm lý người bệnh tốt", "chuẩn bị hồ sơ đầy đủ", "được phản ứng của người bệnh trước mổ"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 79: Điều dưỡng phải đánh giá tình trạng tâm lý của người bệnh trước mổ nhằm:",
     "options": ["Hiểu rõ tâm tư, lo lắng của người bệnh", "Trao đổi với người bệnh về thông tin", "Hoàn cảnh gia đình người bệnh", "Biết được phản ứng của người bệnh"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 80: Trong quá trình tiếp xúc người bệnh trước mổ nếu thấy người bệnh lo lắng, người điều dưỡng phải:",
     "options": ["Giải thích, trấn an ngay", "Có kế hoạch can thiệp kịp thời", "Kết hợp người nhà động viên", "Nhờ bác sĩ phẫu thuật can thiệp"],
-    "correct": [1]
+    "correct": 1
   },
   {
     "question": "Câu 81: Khi thu thập thông tin về người bệnh trước mổ, nếu người bệnh là phụ nữ, người điều dưỡng phải thu thập thông tin thêm về:",
     "options": ["Tuổi tác và bệnh lý kèm theo", "Kinh nguyệt và thai nghén", "Hoàn cảnh gia đình", "Bệnh lý mãn tính"],
-    "correct": [1]
+    "correct": 1
   },
   {
     "question": "Câu 82: Biểu hiện vàng da do sỏi đường mật:",
     "options": ["Vàng chanh", "Vàng rơm", "Vàng nghệ", "Có thể 1 trong 3 màu trên"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 83: Chọn câu đúng nhất:",
     "options": ["Sỏi đường mật là cấp cứu ngoại khoa hàng đầu", "Sỏi đường mật có thể tự khỏi", "Triệu chứng lâm sàng sỏi đường mật có thể khỏi tự nhiên", "Sỏi đường mật không gây biến chứng chảy máu đường mật"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 84: Để hướng tới chẩn đoán sỏi đường mật sớm, cần thực hiện:",
     "options": ["PTC", "Siêu âm", "ERCP", "Hỏi bệnh sử, khám lâm sàng"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 85: Chọn phương tiện chẩn đoán hình ảnh đầu tiên để hướng tới sỏi đường mật:",
     "options": ["X-quang", "Siêu âm", "DTC", "ERCP"],
-    "correct": [1]
+    "correct": 1
   },
   {
     "question": "Câu 86: Chọn câu đúng nhất:",
     "options": ["Phải mổ cấp cứu sỏi túi mật", "Thường mổ túi mật lấy sỏi", "Dấu Murphy thường thấy trong viêm túi mật do sỏi", "Sỏi túi mật gây vàng da"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 87: Biến chứng thường gặp của sỏi đường mật:",
     "options": ["Viêm phúc mạc do dịch vị", "Suy gan", "Xuất huyết tiêu hoá", "Viêm phúc mạc mật"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 88: Sỏi đường tiết niệu thường gặp là:",
     "options": ["Sỏi Calci", "Sỏi Axit uric", "Sỏi Struvit", "Sỏi Cystyn"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 89: Sỏi đường niệu cản quang kém nhất là:",
     "options": ["Sỏi Calci", "Sỏi Struvit", "Sỏi Axit uric", "Sỏi Cystyn"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 90: Cơn đau quặn thận:",
     "options": ["Đau từng cơn vùng thượng vị", "Đau âm ỉ vùng hố chậu phải", "Đau từng cơn lan dọc theo đường đi của niệu quản xuống hậu môn", "Đau từng cơn lan dọc theo đường đi của niệu quản xuống gò mu"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 91: Phương tiện chẩn đoán có giá trị trong chẩn đoán sỏi đường tiết niệu là:",
     "options": ["Siêu âm", "Thử máu", "Thử nước tiểu", "X-quang"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 92: Triệu chứng thường gặp trong sỏi niệu đạo là:",
     "options": ["Đái rắt", "Đái máu", "Đái khó", "Bí đái"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 93: Thận ứ nước thường gặp trong:",
     "options": ["Sỏi bàng quang", "Sỏi thận", "Sỏi niệu quản", "Sỏi niệu đạo"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 94: Biến chứng nguy hiểm thường gặp trong sỏi đường tiết niệu là:",
     "options": ["Đái máu", "Nhiễm trùng tiểu", "Suy thận mãn", "Suy thận cấp"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 95: Phòng sỏi đường tiết niệu: Chọn câu sai",
     "options": ["Uống nước nhiều", "Chống nhiễm trùng đường tiết niệu", "Ăn nhiều đạm", "Tránh ứ đọng nước tiểu"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 96: Để phát hiện sớm dấu hiệu mất nước ở người bệnh bị tắc ruột cơ học người điều dưỡng cần nhận định các dấu hiệu:",
     "options": ["Mắt có trũng, môi có khô không?", "Lưỡi có bẩn không?", "Da có xanh tái không?", "Bụng có chướng không?"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 97: Hậu môn nhân tạo được phân loại là:",
     "options": ["Hậu môn nhân tạo hoàn toàn, một phần", "Hậu môn nhân tạo một phần, tận cùng", "Hậu môn nhân tạo tạm thời, vĩnh viễn", "Hậu môn nhân tạo tận cùng, kiểu nòng súng"],
-    "correct": [2]
+    "correct": 2
   },
   {
     "question": "Câu 98: Biến chứng sớm của hậu môn nhân tạo:",
     "options": ["Chảy máu từ mạc treo đại tràng đưa ra", "Teo miệng đại tràng đưa ra do sẹo da co gây hẹp", "Sa niêm mạc đại tràng", "Thoát vị thành bụng chỗ đưa đại tràng ra ngoài"],
-    "correct": [0]
+    "correct": 0
   },
   {
     "question": "Câu 99: Để đánh giá người bệnh bỏng nặng hay nhẹ dựa vào:",
     "options": ["Tuổi, vị trí", "Nguyên nhân bỏng", "Diện tích bỏng, tuổi, vị trí", "Diện tích bỏng, độ sâu bỏng, vị trí"],
-    "correct": [3]
+    "correct": 3
   },
   {
     "question": "Câu 100: Trường hợp nào sau đây gây nguy hiểm cho bệnh nhân trong phòng mổ:",
     "options": ["Nhận diện lầm bệnh nhân", "Di chuyển bệnh nhân không đúng cách", "Bỏ sót gạc và dụng cụ", "Tất cả các ý đều đúng"],
-    "correct": [3]
+    "correct": 3
   }
 ]
